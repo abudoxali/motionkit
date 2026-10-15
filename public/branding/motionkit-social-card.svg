@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <!-- MotionKit GitHub Social Card / Banner -->
+  <rect width="1200" height="630" fill="#0a0d14"/>
+  
+  <!-- Subtle Grid & Technical Lines -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161c28" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#8f8aff" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#70e1c4" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0a0d14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardMarkGrad" x1="22" y1="18" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8f8aff"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Outer Composition Boundary Guides -->
+  <rect x="60" y="60" width="1080" height="510" rx="16" fill="none" stroke="#1e2638" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="75" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569" font-weight="600" letter-spacing="1.5px">1920 × 1080 · REMOTION FRAME BOUNDARY</text>
+  <text x="1000" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569" font-weight="600" letter-spacing="1.5px">LOCAL-FIRST</text>
+
+  <!-- Center Brand System -->
+  <g transform="translate(600, 240)">
+    <!-- Logo Mark (80x80) centered at (-40, -90) -->
+    <g transform="translate(-40, -95)">
+      <rect width="80" height="80" rx="20" fill="#121622"/>
+      <rect x="0.5" y="0.5" width="79" height="79" rx="19.5" stroke="#2d374d" stroke-width="1"/>
+      
+      <g transform="translate(14, 14) scale(1.3)">
+        <path d="M0 10V2C0 0.895431 0.895431 0 2 0H10" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M30 0H38C39.1046 0 40 0.895431 40 2V10" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M40 30V38C40 39.1046 39.1046 40 38 40H30" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M10 40H2C0.895431 40 0 39.1046 0 38V30" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+
+        <polygon points="14,20 20,14 26,20 20,26" fill="#70e1c4" opacity="0.3"/>
+        <path d="M20 9L29 20L20 31L11 20Z" fill="url(#cardMarkGrad)" stroke="#70e1c4" stroke-width="1.8"/>
+        <circle cx="20" cy="20" r="2.8" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="40" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="56" font-weight="800" fill="#f8fafc" letter-spacing="-1.5px">
+      Motion<tspan fill="#8f8aff">Kit</tspan>
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="85" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="22" font-weight="500" fill="#94a3b8" letter-spacing="-0.2px">
+      Direct the idea. Code the motion.
+    </text>
+
+    <!-- Capabilities Pills -->
+    <g transform="translate(0, 130)">
+      <g transform="translate(-320, 0)">
+        <rect width="145" height="36" rx="18" fill="#141926" stroke="#252f44" stroke-width="1"/>
+        <text x="72" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#c7d2fe">Creative Freedom</text>
+      </g>
+      <g transform="translate(-160, 0)">
+        <rect width="155" height="36" rx="18" fill="#141926" stroke="#252f44" stroke-width="1"/>
+        <text x="77" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#70e1c4">Motion Engineering</text>
+      </g>
+      <g transform="translate(10, 0)">
+        <rect width="155" height="36" rx="18" fill="#141926" stroke="#252f44" stroke-width="1"/>
+        <text x="77" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#c7d2fe">AI-Agent Workflow</text>
+      </g>
+      <g transform="translate(180, 0)">
+        <rect width="140" height="36" rx="18" fill="#141926" stroke="#252f44" stroke-width="1"/>
+        <text x="70" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Remotion Engine</text>
+      </g>
+    </g>
+
+    <!-- Attribution Footer -->
+    <text x="0" y="215" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#64748b" letter-spacing="1px">
+      DEVELOPER TOOL BY <tspan fill="#94a3b8" font-weight="700">ABUD FUN</tspan>
+    </text>
+  </g>
+</svg>

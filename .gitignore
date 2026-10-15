@@ -1,0 +1,23 @@
+node_modules/
+dist/
+exports/
+analysis/
+reference/user/
+public/user-assets/
+src/motion/data/words.json
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+output/
+.playwright-cli/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+test-results/
+playwright-report/
+
+# Generated developer source release artifacts (not tracked).
+release-artifacts/

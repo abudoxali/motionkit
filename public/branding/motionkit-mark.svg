@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- MotionKit Compact Mark -->
+  <rect width="64" height="64" rx="14" fill="#10141d"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" stroke="#252e3e" stroke-width="1"/>
+  
+  <g transform="translate(12, 12)">
+    <!-- Framing brackets (composition boundaries) -->
+    <path d="M0 10V2C0 0.895431 0.895431 0 2 0H10" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M30 0H38C39.1046 0 40 0.895431 40 2V10" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M40 30V38C40 39.1046 39.1046 40 38 40H30" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M10 40H2C0.895431 40 0 39.1046 0 38V30" stroke="#8f8aff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Keyframe Trails -->
+    <polygon points="14,20 20,14 26,20 20,26" fill="#70e1c4" opacity="0.3"/>
+    
+    <!-- Primary Keyframe Diamond -->
+    <path d="M20 9L29 20L20 31L11 20Z" fill="url(#mkMarkGrad)" stroke="#70e1c4" stroke-width="1.5"/>
+
+    <!-- Center Pulse -->
+    <circle cx="20" cy="20" r="2.5" fill="#f8fafc"/>
+  </g>
+
+  <defs>
+    <linearGradient id="mkMarkGrad" x1="11" y1="9" x2="29" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8f8aff"/>
+      <stop offset="100%" stop-color="#5548f0"/>
+    </linearGradient>
+  </defs>
+</svg>
